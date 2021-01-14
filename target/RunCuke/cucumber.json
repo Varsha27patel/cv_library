@@ -1,0 +1,924 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8357031499,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "Search functionality with different job criteria",
+        "description": "",
+        "id": "search-functionality;search-functionality-with-different-job-criteria;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 948830400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 319994500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 325302900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter job title \"Automation Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation Tester",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefs.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 358594900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter location \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepdefs.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 217128700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select distance \"up to 1 mile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up to 1 mile",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefs.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 169146300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on more options",
+            "match": {
+              "location": "MyStepdefs.iClickOnMoreOptions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 399807900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter salary min \"40000\" and \"50000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "40000",
+                  "offset": 20
+                },
+                {
+                  "val": "50000",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepdefs.iEnterSalaryMinAnd(String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106167099,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select salary type \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 22
+                }
+              ],
+              "location": "MyStepdefs.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 129732401,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select job type \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefs.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 117084601,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on find jobs button",
+            "match": {
+              "location": "MyStepdefs.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1830764299,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should be able to see result with keyword \"Permanent Automation Tester jobs in London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Automation Tester jobs in London",
+                  "offset": 45
+                }
+              ],
+              "location": "MyStepdefs.iShouldBeAbleToSeeResultWithKeyword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6992105101,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Search functionality with different job criteria",
+        "description": "",
+        "id": "search-functionality;search-functionality-with-different-job-criteria;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 961962900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2107599,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 179840900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter job title \"Qa Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qa Tester",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefs.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140301600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter location \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepdefs.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127503800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select distance \"up to 15 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up to 15 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefs.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294663001,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on more options",
+            "match": {
+              "location": "MyStepdefs.iClickOnMoreOptions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 459179800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter salary min \"45000\" and \"55000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45000",
+                  "offset": 20
+                },
+                {
+                  "val": "55000",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepdefs.iEnterSalaryMinAnd(String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125711400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I select salary type \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 22
+                }
+              ],
+              "location": "MyStepdefs.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 152479499,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select job type \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefs.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 111785500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on find jobs button",
+            "match": {
+              "location": "MyStepdefs.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2037643399,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should be able to see result with keyword \"Permanent Qa Tester jobs in London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Qa Tester jobs in London",
+                  "offset": 45
+                }
+              ],
+              "location": "MyStepdefs.iShouldBeAbleToSeeResultWithKeyword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7075032900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Search job with fail result",
+        "description": "",
+        "id": "search-functionality;search-job-with-fail-result;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 1411519799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3123499,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 229395801,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter job title \"Automation Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Automation Tester",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefs.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 123667601,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter location \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepdefs.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 164254000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I select distance \"up to 1 mile\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up to 1 mile",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefs.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231247500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on more options",
+            "match": {
+              "location": "MyStepdefs.iClickOnMoreOptions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 437832000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter salary min \"40000\" and \"50000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "40000",
+                  "offset": 20
+                },
+                {
+                  "val": "50000",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepdefs.iEnterSalaryMinAnd(String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 134260399,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select salary type \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 22
+                }
+              ],
+              "location": "MyStepdefs.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 144536700,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select job type \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefs.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 125899500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on find jobs button",
+            "match": {
+              "location": "MyStepdefs.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10090883700,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[contains(text(),\u0027Permanent Automation Tester1 jobs in London\u0027)]\"}\n  (Session info: chrome\u003d87.0.4280.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-7TUP9CK\u0027, ip: \u0027192.168.1.70\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\44796\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58526}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 914a67869976756debc84979905b608b\n*** Element info: {Using\u003dxpath, value\u003d//h1[contains(text(),\u0027Permanent Automation Tester1 jobs in London\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat uk.co.cvlibrary.pages.HomePage.verifySearchResultByText(HomePage.java:110)\r\n\tat uk.co.cvlibrary.cucumber.stepdefs.MyStepdefs.iShouldBeAbleToSeeResultWithKeyword(MyStepdefs.java:68)\r\n\tat ✽.Then I should be able to see result with keyword \"Permanent Automation Tester1 jobs in London\"(src/test/java/resources/featurefile/search.feature:32)\r\n",
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "I should be able to see result with keyword \"Permanent Automation Tester1 jobs in London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Automation Tester1 jobs in London",
+                  "offset": 45
+                }
+              ],
+              "location": "MyStepdefs.iShouldBeAbleToSeeResultWithKeyword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Smoke"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7116859999,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Search job with fail result",
+        "description": "",
+        "id": "search-functionality;search-job-with-fail-result;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 1254533001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12661300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on home page",
+            "match": {
+              "location": "MyStepdefs.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 235393900,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I enter job title \"Qa Tester\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Qa Tester",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefs.iEnterJobTitle(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 170302700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I enter location \"London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "London",
+                  "offset": 18
+                }
+              ],
+              "location": "MyStepdefs.iEnterLocation(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131473200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I select distance \"up to 15 miles\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up to 15 miles",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefs.iSelectDistance(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 306782500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I click on more options",
+            "match": {
+              "location": "MyStepdefs.iClickOnMoreOptions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 509471800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I enter salary min \"45000\" and \"55000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "45000",
+                  "offset": 20
+                },
+                {
+                  "val": "55000",
+                  "offset": 32
+                }
+              ],
+              "location": "MyStepdefs.iEnterSalaryMinAnd(String,String)"
+            },
+            "matchedColumns": [
+              3,
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 122387799,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select salary type \"Per annum\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 22
+                }
+              ],
+              "location": "MyStepdefs.iSelectSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 150627301,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select job type \"Permanent\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent",
+                  "offset": 19
+                }
+              ],
+              "location": "MyStepdefs.iSelectJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 147922100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on find jobs button",
+            "match": {
+              "location": "MyStepdefs.iClickOnFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10027818501,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//h1[contains(text(),\u0027Permanent Qa1 Tester jobs in London\u0027)]\"}\n  (Session info: chrome\u003d87.0.4280.88)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-7TUP9CK\u0027, ip: \u0027192.168.1.70\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\\Users\\44796\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:58626}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 3a6a662aeaaf73e8de1c7a3910560299\n*** Element info: {Using\u003dxpath, value\u003d//h1[contains(text(),\u0027Permanent Qa1 Tester jobs in London\u0027)]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat uk.co.cvlibrary.pages.HomePage.verifySearchResultByText(HomePage.java:110)\r\n\tat uk.co.cvlibrary.cucumber.stepdefs.MyStepdefs.iShouldBeAbleToSeeResultWithKeyword(MyStepdefs.java:68)\r\n\tat ✽.Then I should be able to see result with keyword \"Permanent Qa1 Tester jobs in London\"(src/test/java/resources/featurefile/search.feature:32)\r\n",
+              "status": "failed"
+            },
+            "line": 32,
+            "name": "I should be able to see result with keyword \"Permanent Qa1 Tester jobs in London\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Permanent Qa1 Tester jobs in London",
+                  "offset": 45
+                }
+              ],
+              "location": "MyStepdefs.iShouldBeAbleToSeeResultWithKeyword(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality",
+    "description": "as a user i want to search different jobs",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/java/resources/featurefile/search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Smoke"
+      }
+    ]
+  }
+]
